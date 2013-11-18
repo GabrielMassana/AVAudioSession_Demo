@@ -21,6 +21,8 @@
 		D733FD331833F18600C31BA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D733FD151833F18600C31BA2 /* UIKit.framework */; };
 		D733FD3B1833F18600C31BA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D733FD391833F18600C31BA2 /* InfoPlist.strings */; };
 		D733FD3D1833F18600C31BA2 /* soundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D733FD3C1833F18600C31BA2 /* soundTests.m */; };
+		D733FD471833F1DE00C31BA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D733FD461833F1DE00C31BA2 /* AVFoundation.framework */; };
+		D7ECC39E1833F8D500572F35 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = D733FD481833F76200C31BA2 /* sound.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D733FD381833F18600C31BA2 /* soundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "soundTests-Info.plist"; sourceTree = "<group>"; };
 		D733FD3A1833F18600C31BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D733FD3C1833F18600C31BA2 /* soundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soundTests.m; sourceTree = "<group>"; };
+		D733FD461833F1DE00C31BA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D733FD481833F76200C31BA2 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D733FD471833F1DE00C31BA2 /* AVFoundation.framework in Frameworks */,
 				D733FD141833F18600C31BA2 /* CoreGraphics.framework in Frameworks */,
 				D733FD161833F18600C31BA2 /* UIKit.framework in Frameworks */,
 				D733FD121833F18600C31BA2 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		D733FD101833F18600C31BA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D733FD461833F1DE00C31BA2 /* AVFoundation.framework */,
 				D733FD111833F18600C31BA2 /* Foundation.framework */,
 				D733FD131833F18600C31BA2 /* CoreGraphics.framework */,
 				D733FD151833F18600C31BA2 /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		D733FD171833F18600C31BA2 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				D733FD481833F76200C31BA2 /* sound.caf */,
 				D733FD201833F18600C31BA2 /* AppDelegate.h */,
 				D733FD211833F18600C31BA2 /* AppDelegate.m */,
 				D733FD231833F18600C31BA2 /* Main.storyboard */,
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7ECC39E1833F8D500572F35 /* sound.caf in Resources */,
 				D733FD2A1833F18600C31BA2 /* Images.xcassets in Resources */,
 				D733FD1C1833F18600C31BA2 /* InfoPlist.strings in Resources */,
 				D733FD251833F18600C31BA2 /* Main.storyboard in Resources */,
@@ -460,6 +468,7 @@
 				D733FD421833F18600C31BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D733FD431833F18600C31BA2 /* Build configuration list for PBXNativeTarget "soundTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				D733FD451833F18600C31BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
